@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5C2B743C1B7A7689007948FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2B743B1B7A7689007948FC /* AppDelegate.swift */; };
-		5C2B743E1B7A7689007948FC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5C2B743D1B7A7689007948FC /* GameScene.sks */; };
 		5C2B74401B7A7689007948FC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2B743F1B7A7689007948FC /* GameScene.swift */; };
 		5C2B74421B7A7689007948FC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2B74411B7A7689007948FC /* GameViewController.swift */; };
 		5C2B74451B7A7689007948FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2B74431B7A7689007948FC /* Main.storyboard */; };
@@ -31,7 +30,6 @@
 		5C2B74361B7A7689007948FC /* TouchMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2B743A1B7A7689007948FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C2B743B1B7A7689007948FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C2B743D1B7A7689007948FC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		5C2B743F1B7A7689007948FC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		5C2B74411B7A7689007948FC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		5C2B74441B7A7689007948FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,9 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				5C2B743B1B7A7689007948FC /* AppDelegate.swift */,
-				5C2B743D1B7A7689007948FC /* GameScene.sks */,
-				5C2B743F1B7A7689007948FC /* GameScene.swift */,
 				5C2B74411B7A7689007948FC /* GameViewController.swift */,
+				5C2B743F1B7A7689007948FC /* GameScene.swift */,
 				5C2B74431B7A7689007948FC /* Main.storyboard */,
 				5C2B74461B7A7689007948FC /* Images.xcassets */,
 				5C2B74481B7A7689007948FC /* LaunchScreen.xib */,
@@ -200,7 +197,6 @@
 			files = (
 				5C2B744A1B7A7689007948FC /* LaunchScreen.xib in Resources */,
 				5C2B74471B7A7689007948FC /* Images.xcassets in Resources */,
-				5C2B743E1B7A7689007948FC /* GameScene.sks in Resources */,
 				5C2B74451B7A7689007948FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
